@@ -3,7 +3,7 @@
 This project focuses on acquiring data from low-cost sensors — **MPU9250 (IMU)**, **HMC5883L (magnetometer)**, and **NEO-6M (GPS)** — and applying an **Extended Kalman Filter (EKF)** for sensor fusion.
 The goal is to improve motion tracking accuracy by mitigating individual sensor limitations such as **IMU drift** and **GPS signal loss**.
 
----
+
 
 ## Project Objectives
 
@@ -12,7 +12,6 @@ The goal is to improve motion tracking accuracy by mitigating individual sensor 
 * Implement EKF for fusing accelerometer, gyroscope, magnetometer, and GPS data
 * Estimate accurate **position, velocity, and orientation** in real time
 
----
 
 ## Hardware Components
 
@@ -21,7 +20,7 @@ The goal is to improve motion tracking accuracy by mitigating individual sensor 
 * **NEO-6M** – GPS module
 * **Raspberry Pi** – Data acquisition and processing unit
 
----
+
 
 ## Sensor Calibration
 
@@ -33,7 +32,7 @@ To enhance estimation accuracy, all sensors are calibrated prior to fusion:
 * **Magnetometer**
   Offset is derived by rotating the sensor in all directions and averaging readings over **10 seconds**.
 
----
+
 
 ## Sensor Fusion using Extended Kalman Filter (EKF)
 
@@ -45,7 +44,7 @@ The EKF is used to combine measurements from multiple sensors and produce a reli
 * Correct predicted state using GPS measurements
 * Apply yaw correction using magnetometer data
 
----
+
 
 ## State Vector
 
@@ -53,7 +52,7 @@ The EKF is used to combine measurements from multiple sensors and produce a reli
 * **vx, vy** – Velocity
 * **yaw** – Orientation angle
 
----
+
 
 ## EKF Processing Flow
 
@@ -64,7 +63,6 @@ The EKF is used to combine measurements from multiple sensors and produce a reli
 5. Apply yaw correction using magnetometer data
 6. Save and export filtered EKF output
 
----
 
 ## Output and Accuracy
 
@@ -76,7 +74,6 @@ The EKF is used to combine measurements from multiple sensors and produce a reli
 
 **Average error between raw GPS and EKF output: 5.13 meters**
 
----
 
 ## Dataset
 
