@@ -2,7 +2,7 @@
 A project focused on IMU data acquisition and sensor fusion techniques for reliable orientation and motion estimation.
 This project focuses on acquiring data from low-cost sensors — MPU9250 (IMU), HMC5883L (magnetometer), and NEO-6M (GPS) — and applying an Extended Kalman Filter (EKF) for sensor fusion. It aims to enhance motion tracking accuracy by overcoming individual sensor limitations such as drift (IMU) and signal loss (GPS).
 
-Project Objective
+#Project Objective
 Acquire real-time sensor data from MPU9250, HMC5883L, and NEO-6M
 Calibrate the sensors to eliminate bias and offset
 Implement EKF for fusing accelerometer, gyroscope, magnetometer, and GPS data
