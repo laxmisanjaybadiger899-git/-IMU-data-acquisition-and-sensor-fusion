@@ -18,8 +18,6 @@ The goal is to improve motion tracking accuracy by mitigating individual sensor 
 
 ## Hardware Setup
 
-![Hardware Setup Diagram](image.png)
-
 
 * **MPU9250** – 3-axis accelerometer and 3-axis gyroscope
 * **HMC5883L** – 3-axis magnetometer
@@ -81,18 +79,7 @@ The EKF is used to combine measurements from multiple sensors and produce a reli
 **Average error between raw GPS and EKF output: 5.13 meters**
 
 
-## Dataset
 
-* Raw sensor data logs (CSV):
-  [Download](https://drive.google.com/file/d/1MSZc2ri92wEc8Nm7qAl5g8xDtpZ0N0Op/view?usp=drivesdk)
-
-* Filtered EKF output:
-  [Download](https://drive.google.com/file/d/1MR0PKdPoQW8ihD3Qlb1ICvZ5o_7j_QCj/view?usp=drivesdk)
-
-* GPS logger reference data:
-  [Download](https://drive.google.com/file/d/1MT03GHJNlI-IB70fbP5GRPpZ1tv4qIla/view?usp=drivesdk)
-
----
 
 ## Applications
 
@@ -100,20 +87,7 @@ The EKF is used to combine measurements from multiple sensors and produce a reli
 * Precision agriculture and asset tracking
 * Drone localization in GPS-denied environments
 
----
 
-## Hardware Setup
-
-![Hardware Setup 1](images/hardware_setup_1.jpg)
-![Hardware Setup 2](images/hardware_setup_2.jpg)
-
----
-
-## Results
-
-![Result Visualization](images/result.png)
-
----
 
 ## Future Enhancements
 
