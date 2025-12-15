@@ -47,12 +47,8 @@ Output and Accuracy
 Average error between raw GPS and EKF output: **5.13 meters**
 
 ---
+![Uploading image.png…]()
 
-## Dataset
-
-* Raw sensor data logs (CSV) – [Download](https://drive.google.com/yourlink)
-* Filtered EKF output – [Download](https://drive.google.com/yourlink)
-* GPS logger reference data – [Download](https://drive.google.com/yourlink)
 
 ---
 
