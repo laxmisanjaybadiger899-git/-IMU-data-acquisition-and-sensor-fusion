@@ -72,7 +72,7 @@ The EKF is used to combine measurements from multiple sensors and produce a reli
 
 ## Output and Accuracy
 
-![EKF Output Path](images/ekf_output.png)
+![EKF Output Path](image.png)
 
 * **Red Path** – GPS logger path (mobile phone reference)
 * **Blue Path** – Raw sensor path (MPU9250 + NEO-6M + HMC5883L)
