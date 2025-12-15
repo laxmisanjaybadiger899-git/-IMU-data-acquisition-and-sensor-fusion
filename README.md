@@ -13,11 +13,11 @@ The goal is to improve motion tracking accuracy by mitigating individual sensor 
 * Estimate accurate **position, velocity, and orientation** in real time
 
 
-## Hardware Components
+
 
 ## Hardware Setup
 
-![Hardware Setup Diagram](images/image.png)
+![Hardware Setup Diagram](image.png)
 
 
 * **MPU9250** – 3-axis accelerometer and 3-axis gyroscope
