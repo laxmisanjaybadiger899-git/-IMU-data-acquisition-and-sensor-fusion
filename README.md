@@ -36,24 +36,32 @@ Apply yaw correction using magnetometer
 Save and export the filtered result
 image
 Output and Accuracy
-Red Path – GPS logger path (phone)
-Blue Path – Raw sensor path (MPU9250 + NEO-6M + HMC5883L)
-Green Path – EKF output (filtered path)
-Average error between raw GPS and EKF output: 5.13 meters
+## Output and Accuracy
 
-Dataset
-Raw sensor data logs (CSV) - https://drive.google.com/file/d/1MSZc2ri92wEc8Nm7qAl5g8xDtpZ0N0Op/view?usp=drivesdk
-Filtered EKF output - https://drive.google.com/file/d/1MR0PKdPoQW8ihD3Qlb1ICvZ5o_7j_QCj/view?usp=drivesdk
-GPS logger reference data - https://drive.google.com/file/d/1MT03GHJNlI-IB70fbP5GRPpZ1tv4qIla/view?usp=drivesdk
-Applications
-Real-time motion tracking for robots and autonomous vehicles
-Precision agriculture and asset tracking
-Drone localization in GPS-denied environments
-Future Enhancements
-Real-time implementation on microcontrollers
-Integration with additional sensors like barometers or LiDAR
-Adaptive filtering based on terrain and environment
-Hardware setup
+![EKF Output](output.png)
+
+* **Red Path** – GPS logger path (phone)
+* **Blue Path** – Raw sensor path (MPU9250 + NEO-6M + HMC5883L)
+* **Green Path** – EKF output (filtered path)
+
+Average error between raw GPS and EKF output: **5.13 meters**
+
+---
+
+## Dataset
+
+* Raw sensor data logs (CSV) – [Download](https://drive.google.com/yourlink)
+* Filtered EKF output – [Download](https://drive.google.com/yourlink)
+* GPS logger reference data – [Download](https://drive.google.com/yourlink)
+
+---
+
+## Applications
+
+* Real-time motion tracking for robots and autonomous vehicles
+* Precision agriculture and asset tracking
+* Drone localization in GPS-denied environments
+
 WhatsApp Image 2025-05-29 at 00 14 04_59c62846
 
 WhatsApp Image 2025-05-13 at 23 51 43_ce382a1a
