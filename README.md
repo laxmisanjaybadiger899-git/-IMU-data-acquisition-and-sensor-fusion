@@ -7,6 +7,7 @@ The goal is to improve motion tracking accuracy by mitigating individual sensor 
 
 ## Project Objectives
 
+
 * Acquire real-time data from MPU9250, HMC5883L, and NEO-6M sensors
 * Perform sensor calibration to eliminate bias and offset
 * Implement EKF for fusing accelerometer, gyroscope, magnetometer, and GPS data
