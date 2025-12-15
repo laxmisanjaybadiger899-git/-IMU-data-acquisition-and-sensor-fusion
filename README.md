@@ -15,6 +15,11 @@ The goal is to improve motion tracking accuracy by mitigating individual sensor 
 
 ## Hardware Components
 
+## Hardware Setup
+
+![Hardware Setup Diagram](images/image.png)
+
+
 * **MPU9250** – 3-axis accelerometer and 3-axis gyroscope
 * **HMC5883L** – 3-axis magnetometer
 * **NEO-6M** – GPS module
